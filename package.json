@@ -1,0 +1,24 @@
+{
+  "name": "is-it-home-time-yet",
+  "version": "1.0.0",
+  "description": "A training repository for some basic JavaScript tooling.",
+  "author": "Anthony Hastings <ar.hastings@gmail.com> (https://antwan1986.github.io/)",
+  "license": "MIT",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "moment": "2.18.1"
+  },
+  "devDependencies": {
+    "babel-core": "6.22.1",
+    "babel-loader": "6.2.10",
+    "babel-preset-env": "1.2.0",
+    "html-webpack-plugin": "2.26.0",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
+  }
+}

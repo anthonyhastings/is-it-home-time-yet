@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Is It Home Time Yet?</title>
+  </head>
+  <body>
+    <h1>Is it home time yet?</h1>
+
+    <label for="start-time">Enter the time you start work</label>
+    <br />
+    <input id="start-time" type="time" value="08:00" />
+    <button id="update">Update</button>
+    <br /><br />
+    <div id="result"></div>
+
+    <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+      <script src="/<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+    <% } %>
+  </body>
+</html>
